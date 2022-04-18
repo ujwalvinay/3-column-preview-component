@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: hsl(0, 0%, 95%);
+    width: 90em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    display: flex;
+    flex: 1 1 opx;
+    margin: 10% 30%;
+
+    width:90rem;
+}
+.sedans
+{
+    background: hsl(31, 77%, 52%);
+    width: 13rem;
+    padding: 2rem 1.5rem;
+    border-radius:8px 0 0 8px ;
+}
+.suv
+{
+    background: hsl(184, 100%, 22%);
+    width: 13rem;
+    padding: 2rem 1.5rem;
+}
+.laxury
+{
+    background: hsl(179, 100%, 13%);
+    width: 13rem;
+    padding: 2rem 1.5rem;
+    border-radius: 0 8px 8px 0;
+}
+h2
+{
+    font-family: 'Big Shoulders Display', cursive;
+    padding: 1.5rem 0;
+    font-size: 33px;
+    color: white;
+}
+p
+{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 100%;
+    padding-bottom: 3rem;
+}
+button
+{
+   margin-bottom: 2rem;
+   padding: 10px 15px;
+   background: white;
+   border-radius: 20px;
+   border: none;
+   font-family: 'Lexend Deca', sans-serif;
+   font-weight: 600;
+}
+
+#sedan-button
+{
+    color:hsl(31, 77%, 52%) ;
+}
+#sedan-button:hover
+{
+    background: rgb(89%, 53%, 15%, 0.1);;
+    color: aliceblue;
+}
+#suv-button
+{
+    color: hsl(184, 100%, 22%);
+}
+#suv-button:hover
+{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+}
+#laxury-button
+{
+    color: hsl(179, 100%, 13%);
+}
+#laxury-button:hover
+{
+    background-color: hsl(179, 100%, 13%);
+    color: aliceblue;
+}
